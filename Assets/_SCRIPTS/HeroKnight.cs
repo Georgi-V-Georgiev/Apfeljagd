@@ -143,11 +143,11 @@ public class HeroKnight : MonoBehaviour {
             m_animator.SetTrigger("Roll");
             m_body2d.velocity = new Vector2(m_facingDirection * m_rollForce, m_body2d.velocity.y);
         }
-            
+
 
         //Jump
-        //else if (Input.GetKeyDown("space") && m_grounded && !m_rolling)
         else if (Input.GetKeyDown("space") && !m_rolling)
+        //else if (Input.GetKeyDown("space") && m_grounded && !m_rolling)
         {
             m_animator.SetTrigger("Jump");
             m_grounded = false;
