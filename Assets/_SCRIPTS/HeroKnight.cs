@@ -28,7 +28,11 @@ public class HeroKnight : MonoBehaviour {
     private float               m_rollDuration = 8.0f / 14.0f;
     private float               m_rollCurrentTime;
     private Vector3             respawnPoint;
+
     float health = 20;
+
+    [HideInInspector] //vupreki che e publichna, nqma da izliza v inspektora (unity)
+    public bool playerIsAttacking = false;
 
     // Use this for initialization
     void Start ()
@@ -199,6 +203,13 @@ public class HeroKnight : MonoBehaviour {
             m_delayToIdle -= Time.deltaTime;
                 if(m_delayToIdle < 0)
                     m_animator.SetInteger("AnimState", 0);
+        }
+
+        if (Input.GetMouseButtonDown(0) && m_timeSinceAttack > 0.25f && !m_rolling)
+        {
+            playerIsAttacking = true;
+        } else {
+            playerIsAttacking = false;
         }
     }
 
