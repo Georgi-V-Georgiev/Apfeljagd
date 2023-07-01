@@ -28,6 +28,7 @@ public class HeroKnight : MonoBehaviour {
     private float               m_rollDuration = 8.0f / 14.0f;
     private float               m_rollCurrentTime;
     private Vector3             respawnPoint;
+    float health = 20;
 
     // Use this for initialization
     void Start ()
@@ -40,6 +41,30 @@ public class HeroKnight : MonoBehaviour {
         m_wallSensorL1 = transform.Find("WallSensor_L1").GetComponent<Sensor_HeroKnight>();
         m_wallSensorL2 = transform.Find("WallSensor_L2").GetComponent<Sensor_HeroKnight>();
         respawnPoint = transform.position;
+    }
+
+    public void TakeDamage()
+    {
+        health--;
+        Debug.Log("damage");
+        Debug.Log(health);
+
+        if(health <= 0)
+        {
+            StartCoroutine(Die());        
+        }
+
+        m_animator.SetTrigger("Hurt");
+    }
+
+    // with IEnumerator you can create a delay
+    private IEnumerator Die()
+    {
+        m_animator.SetBool("noBlood", m_noBlood);
+        m_animator.SetTrigger("Death");
+
+        yield return new WaitForSeconds(1.0f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     // Update is called once per frame
