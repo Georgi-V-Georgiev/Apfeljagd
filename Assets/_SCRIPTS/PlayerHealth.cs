@@ -27,4 +27,14 @@ public class PlayerHealth : MonoBehaviour
             //Game over screen?
         }
     }
+
+    public void HealDamage(int healpoints)
+    {
+        currentHealth += currentHealth + healpoints;
+
+        if (currentHealth >= maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+    }
 }
