@@ -5,6 +5,7 @@ using UnityEngine;
 public class Spike : MonoBehaviour
 {
     private GameObject player;
+    private int damage = 5;
 
     //OnTriggerStay -> to deal permanently damage
     private void OnTriggerEnter2D(Collider2D other)
@@ -12,6 +13,7 @@ public class Spike : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             player.GetComponent<HeroKnight>().TakeDamage();
+            player.GetComponent<PlayerHealth>().TakeDamage(damage);
         }
     }
 
