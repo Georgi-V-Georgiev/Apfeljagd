@@ -14,15 +14,18 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(2);
     }
+
     public void Story()
     {
         SceneManager.LoadSceneAsync(5);
     }
+
     public void QuitGame()
     {
         Application.Quit();
         Debug.Log("You have quit the game!");
     }
+
     public void Credits()
     {
         SceneManager.LoadSceneAsync(7);
