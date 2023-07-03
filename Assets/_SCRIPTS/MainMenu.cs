@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
     }
     public void Story()
     {
-        SceneManager.LoadSceneAsync(4);
+        SceneManager.LoadSceneAsync(5);
     }
     public void QuitGame()
     {
@@ -25,7 +25,12 @@ public class MainMenu : MonoBehaviour
     }
     public void Credits()
     {
-        SceneManager.LoadSceneAsync(6);
+        SceneManager.LoadSceneAsync(7);
 
+    }
+
+    public void GoBackToMainMenu()
+    {
+        SceneManager.LoadSceneAsync(0);
     }
 }
