@@ -31,4 +31,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(7);
 
     }
+
+    public void GoBackToMainMenu()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
 }
