@@ -12,6 +12,6 @@ public class GameOver : MonoBehaviour
 
     public void TryAgain()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

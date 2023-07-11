@@ -237,6 +237,10 @@ public class HeroKnight : MonoBehaviour {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             respawnPoint = transform.position;
         }
+        else if (collision.tag == "GameOver")
+        {
+            SceneManager.LoadSceneAsync(7);
+        }
     }
 
     public void DieAnimation()
