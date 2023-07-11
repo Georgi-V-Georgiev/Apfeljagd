@@ -606,9 +606,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "BEWEGUNG:\n\u2191: Nach oben bewegen\r\n\u2193: Nach unten bewegen\r\n\u2190:
-    Nach links bewegen\r\n\u2192: Nach rechts bewegen\n\nAKTIONEN:\n\ro Leertaste:
-    Springen\r\n\ro Mausklick (linke Taste): Normaler Angriff"
+  m_text: "MOVE:\n\u2191: Move upwards\n\u2193: Move downwards\n\u2190: Move to the
+    left\n\u2192: Move to the right\n\nACTIONS:\n\no Space bar: Jump\no Mouse click
+    (left button): Normal attack"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HINWEISE
+  m_text: HOW TO PLAY?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
