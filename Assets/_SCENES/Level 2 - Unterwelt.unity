@@ -23523,12 +23523,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 7457115659253169328, guid: 18c5dade33d5dc34aae6e29ce78f8090, type: 3}
-=======
-    - target: {fileID: 7457115659253169328, guid: 18c5dade33d5dc34aae6e29ce78f8090,
-        type: 3}
->>>>>>> 81cb48a0642657befe39532cad579d1b8d683fea
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 2080992832}
@@ -23919,12 +23914,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 7457115659253169328, guid: 18c5dade33d5dc34aae6e29ce78f8090, type: 3}
-=======
-    - target: {fileID: 7457115659253169328, guid: 18c5dade33d5dc34aae6e29ce78f8090,
-        type: 3}
->>>>>>> 81cb48a0642657befe39532cad579d1b8d683fea
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 2080992832}
@@ -25864,7 +25854,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 22
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 8655625536497484488, guid: 80b06c43cc120684c96ebeb64debbdae, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.41029486
@@ -25874,10 +25863,6 @@ PrefabInstance:
       value: 0.41301596
       objectReference: {fileID: 0}
     - target: {fileID: 8655625536497484488, guid: 80b06c43cc120684c96ebeb64debbdae, type: 3}
-=======
-    - target: {fileID: 8655625536497484488, guid: 80b06c43cc120684c96ebeb64debbdae,
-        type: 3}
->>>>>>> 81cb48a0642657befe39532cad579d1b8d683fea
       propertyPath: m_LocalPosition.x
       value: 128.3763
       objectReference: {fileID: 0}
