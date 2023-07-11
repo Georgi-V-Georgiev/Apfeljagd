@@ -28,7 +28,7 @@ public class MainMenu : MonoBehaviour
 
     public void Credits()
     {
-        SceneManager.LoadSceneAsync(7);
+        SceneManager.LoadSceneAsync(6);
 
     }
 

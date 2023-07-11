@@ -490,7 +490,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 392, y: -154}
+  m_AnchoredPosition: {x: 392, y: -221}
   m_SizeDelta: {x: 600, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &844966952
@@ -634,8 +634,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 266, y: -24}
-  m_SizeDelta: {x: 358.3745, y: 112.7522}
+  m_AnchoredPosition: {x: 227, y: -25}
+  m_SizeDelta: {x: 295.3144, y: 88.9754}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1108924214
 MonoBehaviour:
@@ -657,18 +657,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "In einem abgelegenen Dorf wuchs unter einer bescheidenen Familie ein au\xDFergew\xF6hnlicher
-    Apfelbaum, der einmal im Jahr nur einen einzigen goldenen Apfel trug. Aber jedes
-    Jahr kam nachts ein Drache und stahl die Fr\xFCchte, bevor sie gepfl\xFCckt werden
-    konnten. Es gab drei Br\xFCder in der Familie, die versuchten, den goldenen Apfel
-    vor dem Drachen zu sch\xFCtzen. Die \xE4lteren Br\xFCder schafften es nicht,
-    und so war der j\xFCngste Bruder an der Reihe, der versprach, das Dorf vor dem
-    Drachen zu retten. Der Moment kam und der Drache erschien auf dem Boden. Der
-    j\xFCngste Bruder folgte seinen Spuren, um den goldenen Apfel nach Hause zu bringen.
-    Auf seinem Weg stie\xDF er in der oberen und unteren Welt auf viele Schwierigkeiten,
-    die er \xFCberwinden musste. Als er schlie\xDFlich den Drachen erreicht, k\xE4mpft
-    der junge Mann gegen ihn und muss ihn besiegen, um zur\xFCckzubekommen, was er
-    gestohlen hat.\r"
+  m_text: In a distant village, under a humble family grew an extraordinary apple
+    tree that once a year bore only a single golden apple. But every year a dragon
+    came at night and stole the fruit before it could be picked. There were three
+    brothers in the family who tried to protect the golden apple from the dragon.
+    The older brothers failed, so it was the youngest brother's turn to promise to
+    save the village from the dragon. The moment came and the dragon appeared from
+    the ground. The youngest brother followed in its footsteps to bring the golden
+    apple home. On his way, he encountered many difficulties in the upper and lower
+    worlds that he had to overcome. When he finally reaches the dragon, the young
+    brother fights him and must defeat him to get back what he stole.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -731,7 +729,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -670.7129, y: -98.15524, z: -143.2666, w: -63.825394}
+  m_margin: {x: -588.01105, y: -98.15524, z: -138.2334, w: -88.990326}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
