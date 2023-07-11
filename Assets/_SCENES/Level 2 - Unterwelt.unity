@@ -21090,8 +21090,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-<<<<<<< HEAD
-=======
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &220059334
 GameObject:
@@ -21218,7 +21216,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
->>>>>>> main
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &308044609
 GameObject:
@@ -22011,7 +22008,6 @@ Transform:
   m_Father: {fileID: 1249278436}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &791788675
 GameObject:
   m_ObjectHideFlags: 0
@@ -22096,8 +22092,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> main
 --- !u!1 &819055595
 GameObject:
   m_ObjectHideFlags: 0
@@ -25159,8 +25153,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< HEAD
-=======
 --- !u!1 &1671251934
 GameObject:
   m_ObjectHideFlags: 0
@@ -25272,7 +25264,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3540585, y: 1.3356856}
   m_EdgeRadius: 0
->>>>>>> main
 --- !u!1 &1692583338
 GameObject:
   m_ObjectHideFlags: 0
