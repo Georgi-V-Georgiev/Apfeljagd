@@ -24,7 +24,7 @@ public class HealthbarPlayer : MonoBehaviour
 
         else if (playerHealth.currentHealth != playerHealth.maxHealth)
         {
-            fillValue = (float)(playerHealth.currentHealth / playerHealth.maxHealth)*100;
+            fillValue = (float)(playerHealth.currentHealth / playerHealth.maxHealth) * 100;
             Debug.Log("Healthbar value " + slider.value);
             Debug.Log("Fill value " + fillValue);
             slider.value = fillValue;
