@@ -17,17 +17,19 @@ public class HealthbarPlayer : MonoBehaviour
 
     void Update()
     {
-        if (playerHealth.currentHealth == playerHealth.maxHealth)
+        if (playerHealth != null && slider != null)
         {
-            slider.value = slider.maxValue;
-        }
-
-        else if (playerHealth.currentHealth != playerHealth.maxHealth)
-        {
-            fillValue = (float)(playerHealth.currentHealth / playerHealth.maxHealth)*100;
-            Debug.Log("Healthbar value " + slider.value);
-            Debug.Log("Fill value " + fillValue);
-            slider.value = fillValue;
+            if (playerHealth.currentHealth == playerHealth.maxHealth)
+            {
+                slider.value = slider.maxValue;
+            }
+            else
+            {
+                fillValue = (float)(playerHealth.currentHealth) / playerHealth.maxHealth * 100;
+                Debug.Log("Healthbar value: " + slider.value);
+                Debug.Log("Fill value: " + fillValue);
+                slider.value = fillValue;
+            }
         }
     }
 }
