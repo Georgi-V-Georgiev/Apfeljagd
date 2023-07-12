@@ -11,24 +11,24 @@ public class HeroKnight : MonoBehaviour {
     [SerializeField] bool m_noBlood = false;
     [SerializeField] GameObject m_slideDust;
 
-    private Animator m_animator;
-    private Rigidbody2D m_body2d;
-    private Sensor_HeroKnight m_groundSensor;
-    private Sensor_HeroKnight m_wallSensorR1;
-    private Sensor_HeroKnight m_wallSensorR2;
-    private Sensor_HeroKnight m_wallSensorL1;
-    private Sensor_HeroKnight m_wallSensorL2;
-    private bool m_isWallSliding = false;
-    private bool m_grounded = false;
-    private bool m_rolling = false;
-    private int m_facingDirection = 1;
-    private int m_currentAttack = 0;
-    private float m_timeSinceAttack = 0.0f;
-    private float m_delayToIdle = 0.0f;
-    private float m_rollDuration = 8.0f / 14.0f;
-    private float m_rollCurrentTime;
-    private Vector3 respawnPoint;
-    float health = 20;
+    public Animator m_animator;
+    public Rigidbody2D m_body2d;
+    public Sensor_HeroKnight m_groundSensor;
+    public Sensor_HeroKnight m_wallSensorR1;
+    public Sensor_HeroKnight m_wallSensorR2;
+    public Sensor_HeroKnight m_wallSensorL1;
+    public Sensor_HeroKnight m_wallSensorL2;
+    public bool m_isWallSliding = false;
+    public bool m_grounded = false;
+    public bool m_rolling = false;
+    public int m_facingDirection = 1;
+    public int m_currentAttack = 0;
+    public float m_timeSinceAttack = 0.0f;
+    public float m_delayToIdle = 0.0f;
+    public float m_rollDuration = 8.0f / 14.0f;
+    public float m_rollCurrentTime;
+    public Vector3 respawnPoint;
+    public float health = 20;
 
     // Use this for initialization
     void Start()
@@ -58,7 +58,7 @@ public class HeroKnight : MonoBehaviour {
     }
 
     // with IEnumerator you can create a delay
-    private IEnumerator Die()
+    public IEnumerator Die()
     {
         m_animator.SetBool("noBlood", m_noBlood);
         m_animator.SetTrigger("Death");
@@ -174,8 +174,8 @@ public class HeroKnight : MonoBehaviour {
 
 
         //Jump
-        else if (Input.GetKeyDown("space") && !m_rolling)
-        //else if (Input.GetKeyDown("space") && m_grounded && !m_rolling)
+        //else if (Input.GetKeyDown("space") && !m_rolling)
+        else if (Input.GetKeyDown("space") && m_grounded && !m_rolling)
         {
             m_animator.SetTrigger("Jump");
             m_grounded = false;
